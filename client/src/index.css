@@ -1,3 +1,84 @@
+@import "leaflet/dist/leaflet.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body{
+    height: 100%;
+    font-family: 'Raleway';
+ width: 100%; 
+ overflow-x: hidden;
+ overflow-y: auto;
+    background-color: #F5EDE8;
+  }
+
+
+  #smooth-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  #smooth-content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  body{
+
+ scroll-behavior: smooth;
+  }
+
+
+
+
+
+#signup-header{
+    font-weight: 900;
+    font-size: 4vw;
+}
+
+
+
+
+#select-role{
+  
+  color: #4B5563;
+  font-size: 2vw;
+}
+
+#profile-pic-avatar{
+  border: 1px solid gray;
+  box-shadow: 2px 2px 34px #4B5563;
+}
+/* #credentials{
+ display: flex;
+ margin-top: 13px;
+ align-items: center;
+ justify-content: center;
+ gap: 25vw;
+ 
+} */
+
+#display-listing-btn{
+  background-color:#16A34A;
+  color: white;
+  /* width: 23vw;
+  height: 6vh;
+  left: 38vw; */
+  position: relative;
+  border-radius: 10px;
+
+}
+#display-listing-btn:hover{
+  background-color: #1dbe58;
+  box-shadow: 5px 1px 7px rgb(65, 65, 65);
+}
+
