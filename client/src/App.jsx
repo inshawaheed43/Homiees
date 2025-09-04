@@ -13,7 +13,7 @@ import UpdateListing from './pages/UpdateListing.jsx';
 import Listing from './pages/Listing.jsx';
 import SignUp2 from './pages/SignUp2.jsx';
 import Search from './pages/Search.jsx';
-import Layout from './Components/layout.jsx';
+import Layout from './Components/Layout.jsx';
 import VerifyEmail from './pages/VerifyEmail.jsx';
 import ChatRoom from "./pages/ChatRoom.jsx";
 import AdminSignin from './pages/AdminSignin.jsx';
